@@ -52,6 +52,7 @@ The app allows users to enter text in a web form and receive emotion predictions
 
 ## Project Structure
 
+```
 ├── EmotionDetection/
 │   └── emotion_detection.py   # Core emotion detection function
 ├── static/
@@ -61,6 +62,7 @@ The app allows users to enter text in a web form and receive emotion predictions
 ├── server.py                  # Flask backend
 ├── requirements.txt           # Dependencies
 └── README.md                  # Read Me
+```
 
 ---
 
