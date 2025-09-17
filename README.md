@@ -31,3 +31,43 @@ The app allows users to enter text in a web form and receive emotion predictions
    git clone https://github.com/synsauce/oaqjp-final-project-emb-ai.git
    cd oaqjp-final-project-emb-ai
 
+2. **Clone the repository**:
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
+4. **Run the Flask app**:
+   ```bash
+   python server.py
+
+5. **Open the app in your browser at**:
+   ```url
+   http://localhost:5000
+
+---
+
+## Project Structure
+
+├── EmotionDetection/
+│   └── emotion_detection.py   # Core emotion detection function
+├── static/
+│   └── mywebscript.js         # Frontend JS
+├── templates/
+│   └── index.html             # Web UI
+├── server.py                  # Flask backend
+├── requirements.txt           # Dependencies
+└── README.md                  # Read Me
+
+---
+
+## Acknowledgments
+
+- IBM Skills Network for providing the Watson NLP EmotionPredict service.
+
+- Coursera & IBM for the AI Developer Specialization.
+
+- Project developed as part of the Final Project for "Developing AI Applications with Python and Flask".
